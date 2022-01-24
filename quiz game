@@ -1,0 +1,80 @@
+Que1="""What is the shortcut for paste?
+1)ctrl+z
+2)ctrl+u
+3)ctrl+b
+4)ctrl+v"""
+
+Que2="""what is the shortcut for bold?
+1)ctrl+l
+2)ctrl+k
+3)ctrl+b
+4)ctrl+h"""
+
+Que3="""What is the output of the following code?
+
+for i in range(10, 15, 1):
+print( i, end=', ')
+
+1)10,11,12,13,14
+2)10,11,12,13,14,15"""
+
+Que4="""Which of the following is the correct extension of the Python file?
+1) .python
+2) .pl
+3) .py
+4) .p"""
+
+Que5="""Which keyword is used for function in Python language?
+1) Function
+2) Def
+3) Fun
+4) Define"""
+
+Que6="""What is the capital of Canada?
+1)Vancouver
+2)Ottawa
+3)Toronto
+4)Calgary"""
+
+Que7="""How many Provinces and Territories are there in Canada?
+1)7
+2)8
+3)9
+4)10"""
+
+Que8="""What is the capital of Alberta?
+1)Calgary
+2)Red deer
+3)Edmonton
+4)Banff"""
+
+Que9="""What is the capital of Manitoba?
+1)Brandon 
+2)Thompson 
+3)Steinbach
+4)Winnipeg"""
+
+Que10="""Which is the Most expensive city to live in canada?
+1) Vancouver
+2) Edminton
+3) Calgary
+4) Mississauga"""
+
+Quetion={Que1:"4",Que2:"3",Que3:"1",Que4:"3",Que5:"2",Que6:"2",Que7:"4",Que8:"3",Que9:"4",Que10:"1"}                                   #creationg a dictionary for quetion and answer
+Score=0
+for i in Quetion:
+    print(i)
+    answer=input("Enter your answer: ")
+    if answer==Quetion[i]:
+        print('Your Answer is correct')
+        Score+=1
+    else:
+        print('Your Answer is wrong')
+        Score-=1
+    Quit=input("Do you want to quit the game(yes/no):  ")
+    if Quit=="yes":
+
+        break
+
+print('You got',Score,'Point')
+
