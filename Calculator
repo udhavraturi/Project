@@ -1,0 +1,28 @@
+type=input("Enter Type: ")
+
+if type=="float":
+    num1 = float(input("Enter a number: "))
+
+    num2 = float(input("Enter a number: "))
+else:
+    num1 = int(input("Enter a number: "))
+
+    num2 = int(input("Enter a number: "))
+
+operation = input("Enter operation: ")
+
+
+if operation=="+":
+    print(num1+num2)
+
+elif operation=="-":
+    print(num1-num2)
+
+elif operation=="*":
+    print(num1*num2)
+
+elif operation=="/":
+    print(num1/num2)
+    
+else:
+    print("Invalid Operation")
