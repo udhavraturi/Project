@@ -20,20 +20,20 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************''')
 print('''Welcome to Tresure Island.
 Your mission is to find the treasure.''')
-a=input("left or right: ")
+a=input("Enter left or right: ")
 if a=='right': 
-    print("fall into a hole")
+    print("fall into a hole, Better luck next time")
 else:
     print("swim or wait")
-b=input('swim or wait: ')
+b=input('Enter swim or wait: ')
 if b=='swim':
     print("Game over")
 else:
     print('which door')
-c=input('Red or Blue or yellow: ')
+c=input('Enter Red or Blue or yellow: ')
 if c=='Red':
     print('Burned by fire, Game over')
-elif input=='Blue':
+elif input=='Enter Red or Yellow or Blue':
     print('Eaten by beast')
 else:
     print('you win')
