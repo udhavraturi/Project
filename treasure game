@@ -18,22 +18,44 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/[TomekK]
 *******************************************************************************''')
-print('''Welcome to Tresure Island.
+
+Your_Name = input("enter your name: ")
+
+print(Your_Name, '''Welcome to Tresure Island.
 Your mission is to find the treasure.''')
-a=input("Enter left or right: ")
-if a=='right': 
+
+answer = input("Enter left or right: ")
+
+if answer == 'right':
     print("fall into a hole, Better luck next time")
+
+
 else:
-    print("swim or wait")
-b=input('Enter swim or wait: ')
-if b=='swim':
-    print("Game over")
+    print("Congratulation")
+
+
+
+answer = input("Enter swim or wait: ")
+
+if answer == 'swim':
+    print("You choose the wrong option.")
+    
+          
+
 else:
     print('which door')
-c=input('Enter Red or Blue or yellow: ')
-if c=='Red':
+
+answer = input('Enter Red or Blue or yellow: ')
+
+if answer == 'red':
     print('Burned by fire, Game over')
-elif input=='Enter Red or Yellow or Blue':
-    print('Eaten by beast')
-else:
+
+
+elif answer == 'blue':
+    print('Eaten by beast, Game over')
+
+elif answer == 'yellow':
     print('you win')
+
+else:
+    print('not a valid option')
